@@ -9,4 +9,6 @@ June 2nd-
 I am starting to plan out the layout of steph's website. I started with looking through the reference websites she sent me and screen shotting the elements that she liked from them. I am pairing together all the pieces that she likes plus other provider websites that I have found to build the lay out. My progress so far is shown in screen shots in the June2 folder
 
 June 5th-
-Today I am finishing up the layout for stephs website
+Today I am finishing up the layout for stephs website. I will send her the results when I am finished and wait for approval. While I'm waiting for feedback I will research how to use squarespace developers.
+
+Finished rough draft layout for website and sent over to steph for approval. Once she approves of the general layout I will put together a draft that is more cohesive with proper colors/text/etc
