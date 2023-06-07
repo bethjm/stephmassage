@@ -15,3 +15,6 @@ Finished rough draft layout for website and sent over to steph for approval. Onc
 
 June 6th-
 will follow up w steph today
+
+June 7th-
+Haven't heard back. Will follow up later today. Waiting on approval before moving forward.
