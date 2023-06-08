@@ -18,3 +18,6 @@ will follow up w steph today
 
 June 7th-
 Haven't heard back. Will follow up later today. Waiting on approval before moving forward.
+
+June 8th-
+folowed up this morning
