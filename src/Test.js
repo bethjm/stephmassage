@@ -1,12 +1,12 @@
 import React from "react";
 
-function About() {
+function Test() {
   return (
     <>
       <p>hi from</p>
-      <p>about</p>
+      <p>test</p>
     </>
   );
 }
 
-export default About;
+export default Test;
