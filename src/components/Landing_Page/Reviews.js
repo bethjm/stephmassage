@@ -1,6 +1,6 @@
 import React from "react";
 
-function Carousel() {
+function Reviews() {
   return (
     <>
       <div className="reviews">
@@ -10,4 +10,4 @@ function Carousel() {
   );
 }
 
-export default Carousel;
+export default Reviews;

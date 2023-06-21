@@ -1,4 +1,5 @@
 import React from "react";
+import Reviews from "./Landing_Page/Reviews";
 
 function Landing() {
   return (
@@ -50,7 +51,7 @@ function Landing() {
         </div>
       </div>
 
-      <Carousel />
+      <Reviews />
 
       <div className="meet_steph">
         <div className="meet_steph_image">

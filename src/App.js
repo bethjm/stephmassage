@@ -2,7 +2,7 @@ import "./App.css";
 import { Link, Route, Routes } from "react-router-dom";
 import Landing from "./components/Landing";
 import About from "./components/About";
-import Services from "./components/services/Services";
+import Services from "./components/Services";
 
 function App() {
   return (

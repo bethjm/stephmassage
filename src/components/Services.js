@@ -4,7 +4,7 @@ function Services() {
   return (
     <>
       <p>hi from</p>
-      <p>services</p>
+      <p>test</p>
     </>
   );
 }
