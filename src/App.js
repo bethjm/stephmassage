@@ -51,6 +51,23 @@ function App() {
               </div>
             </li>
           </div>
+          <div className="mobile_nav">
+            <li className="nav_item">
+              <Link className="link" to="/massage">
+                Massage
+              </Link>
+            </li>
+            <li className="nav_item">
+              <Link className="link" to="/yoga">
+                Yoga
+              </Link>
+            </li>
+            <li className="nav_item">
+              <Link className="link" to="/reiki">
+                Reiki
+              </Link>
+            </li>
+          </div>
           <li className="nav_item">
             <Link className="link" to="/about">
               Meet Steph
