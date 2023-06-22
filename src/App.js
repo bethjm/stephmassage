@@ -11,6 +11,9 @@ import Services from "./components/Services";
 import FAQ from "./components/FAQ";
 import Landing from "./components/Landing";
 import Button from "./components/UI/Button";
+import Yoga from "./components/Service_Offering/Yoga";
+import Massage from "./components/Service_Offering/Massage";
+import Reiki from "./components/Service_Offering/Reiki";
 
 function App() {
   const [click, setClick] = useState(false);
@@ -30,11 +33,24 @@ function App() {
           {click ? <FaTimes size={30} /> : <FaBars size={30} />}
         </div>
         <ul className={click ? "nav_menu active" : "nav_menu"}>
-          <li className="nav_item">
-            <Link className="link" to="/services">
-              Services
-            </Link>
-          </li>
+          <div className="dropdown">
+            <li className="nav_item">
+              <Link className="link" to="/services">
+                Services
+              </Link>
+              <div className="dropdown_content">
+                <Link className="link" to="/massage">
+                  Massage
+                </Link>
+                <Link className="link" to="/yoga">
+                  Yoga
+                </Link>
+                <Link className="link" to="/reiki">
+                  Reiki
+                </Link>
+              </div>
+            </li>
+          </div>
           <li className="nav_item">
             <Link className="link" to="/about">
               Meet Steph
@@ -46,7 +62,7 @@ function App() {
             </Link>
           </li>
           <li className="nav_item">
-            <a href="#" className="book_now">
+            <a href="#" className="book_now" id="book_now_id">
               Book Now
             </a>
           </li>
@@ -58,6 +74,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/faq" element={<FAQ />} />
+        <Route path="/massage" element={<Massage />} />
+        <Route path="/reiki" element={<Reiki />} />
+        <Route path="/yoga" element={<Yoga />} />
       </Routes>
     </div>
   );
