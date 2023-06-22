@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  height: 90px;
+  height: 4rem;
   width: 100%;
   top: 0;
   left: 0;
@@ -13,20 +13,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1240px;
+  max-width: 100%;
   margin: auto;
   height: 100%;
   padding: 0 1rem;
+  background-color: var(--blue);
 }
 
 .header .nav_bar .logo {
   display: flex;
   flex-direction: row;
+  font-size: 2rem;
+}
+
+.header .nav_bar .logo .logo_name p {
+  color: #0d0d0d;
 }
 
 .header .nav_bar .logo img {
-  width: 50px;
-  height: auto;
+  width: 3rem;
+  height: 2.5rem;
+  margin-left: 5%;
 }
 
 .header .nav_menu {
@@ -43,14 +50,34 @@
   border-bottom: 3px solid var(--dark-blue);
 }
 
+.header .link {
+  color: #0d0d0d;
+}
+
 .hamburger {
   display: none;
+}
+
+.header .book_now {
+  padding: 0.5rem 1.3rem;
+  color: #0d0d0d;
+  text-transform: uppercase;
+  background-color: var(--pink);
+  border: 1px solid var(--pink);
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.header .book_now:hover {
+  background: var(--dark-blue);
+  border: 1px solid var(--dark-blue);
 }
 
 @media screen and (max-width: 940px) {
   .header {
     max-width: 100%;
-    background-color: rgba(218, 188, 180, 0.9);
+    background-color: rgba(111, 191, 190, 0.9);
   }
 
   .header .nav_bar {
@@ -63,10 +90,10 @@
 
   .nav_menu {
     position: fixed;
-    left: 0;
-    top: 5rem;
+    left: -100%;
+    top: 63px;
     flex-direction: column;
-    background-color: rgba(218, 188, 180, 0.9);
+    background-color: rgba(111, 191, 190, 0.9);
     width: 100%;
     height: 90vh;
     z-index: 999;
@@ -82,7 +109,11 @@
     margin: 1.5rem 0;
   }
 
+  .header .nav_bar .logo {
+    font-size: 2rem;
+  }
+
   .header .nav_bar .logo img {
-    width: 20px;
+    width: 2.5rem;
   }
 }

@@ -10,6 +10,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import FAQ from "./components/FAQ";
 import Landing from "./components/Landing";
+import Button from "./components/UI/Button";
 
 function App() {
   const [click, setClick] = useState(false);
@@ -19,7 +20,9 @@ function App() {
     <div className="header">
       <nav className="nav_bar">
         <div className="logo">
-          <Link to="/">Bodywork</Link>
+          <Link className="logo_name" to="/">
+            <p>Bodywork</p>
+          </Link>
           <img src={logo} alt="a lotus flower" />
         </div>
 
@@ -28,13 +31,24 @@ function App() {
         </div>
         <ul className={click ? "nav_menu active" : "nav_menu"}>
           <li className="nav_item">
-            <Link to="/services">Services</Link>
+            <Link className="link" to="/services">
+              Services
+            </Link>
           </li>
           <li className="nav_item">
-            <Link to="/about">Meet Steph</Link>
+            <Link className="link" to="/about">
+              Meet Steph
+            </Link>
           </li>
           <li className="nav_item">
-            <Link to="/faq">FAQ</Link>
+            <Link className="link" to="/faq">
+              FAQ
+            </Link>
+          </li>
+          <li className="nav_item">
+            <a href="#" className="book_now">
+              Book Now
+            </a>
           </li>
         </ul>
       </nav>
