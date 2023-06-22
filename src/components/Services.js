@@ -4,9 +4,8 @@ function Services() {
   return (
     <>
       <p>hi from</p>
-      <p>test</p>
+      <p>serivces</p>
     </>
   );
 }
-
 export default Services;

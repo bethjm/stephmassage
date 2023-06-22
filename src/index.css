@@ -1,3 +1,18 @@
+:root {
+  --blue: #6fbfbe;
+  --dark-blue: #008c8c;
+  --pink: #dabcb4;
+  --tan: #f3d5bd;
+  --grey: #a3bcc0;
+  --overlay: rgba(163, 188, 192, 0.7);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -18,5 +33,4 @@ ul {
 
 a {
   text-decoration: none;
-  color: black;
 }
