@@ -10,16 +10,22 @@ function Avail_Service() {
         <h2>Services</h2>
         <div className="all_single_services">
           <div className="single_service">
-            <img src={yoga_service} alt="person doing yoga" />
-            <h4>Massage</h4>
+            <a href="/massage">
+              <img src={yoga_service} alt="person doing yoga" />
+              <h4>Massage</h4>
+            </a>
           </div>
           <div className="single_service">
-            <img src={yoga_service} alt="person doing yoga" />
-            <h4>Yoga</h4>
+            <a href="/yoga">
+              <img src={yoga_service} alt="person doing yoga" />
+              <h4>Yoga</h4>
+            </a>
           </div>
           <div className="single_service">
-            <img src={yoga_service} alt="person doing yoga" />
-            <h4>Reiki</h4>
+            <a href="/reiki">
+              <img src={yoga_service} alt="person doing yoga" />
+              <h4>Reiki</h4>
+            </a>
           </div>
         </div>
       </div>

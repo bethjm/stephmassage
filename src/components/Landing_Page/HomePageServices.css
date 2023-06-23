@@ -24,15 +24,14 @@
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 1400;
-  min-width: 440;
   margin-top: 5%;
 }
 
-.services .all_single_services .single_service {
+.services .all_single_services .single_service a {
   display: flex;
   flex-direction: column;
   width: 12rem;
+  color: var(--text);
 }
 
 .services .all_single_services .single_service img {
