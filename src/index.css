@@ -7,6 +7,7 @@
   --tan: #f3d5bd;
   --grey: #a3bcc0;
   --overlay: rgba(163, 188, 192, 0.7);
+  --text: #0d0d0d;
 }
 
 * {
@@ -22,6 +23,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.2rem;
   line-height: 1.2;
+  /* overflow: scroll; */
 }
 
 code {

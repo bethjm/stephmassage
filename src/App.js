@@ -10,7 +10,6 @@ import About from "./components/About";
 import Services from "./components/Services";
 import FAQ from "./components/FAQ";
 import Landing from "./components/Landing";
-import Button from "./components/UI/Button";
 import Yoga from "./components/Service_Offering/Yoga";
 import Massage from "./components/Service_Offering/Massage";
 import Reiki from "./components/Service_Offering/Reiki";
@@ -20,71 +19,79 @@ function App() {
 
   const handleClick = () => setClick(!click);
   return (
-    <div className="header">
-      <nav className="nav_bar">
-        <div className="logo">
-          <Link className="logo_name" to="/">
-            <p>Bodywork</p>
-          </Link>
-          <img src={logo} alt="a lotus flower" />
-        </div>
+    <div>
+      <div className="header">
+        <nav className="nav_bar">
+          <div className="logo">
+            <Link className="logo_name" to="/">
+              <p>Bodywork</p>
+            </Link>
+            <img src={logo} alt="a lotus flower" />
+          </div>
 
-        <div className="hamburger" onClick={handleClick}>
-          {click ? <FaTimes size={30} /> : <FaBars size={30} />}
-        </div>
-        <ul className={click ? "nav_menu active" : "nav_menu"}>
-          <div className="dropdown">
-            <li className="nav_item">
-              <Link className="link" to="/services">
-                Services
-              </Link>
-              <div className="dropdown_content">
+          <div className="hamburger" onClick={handleClick}>
+            {click ? <FaTimes size={30} /> : <FaBars size={30} />}
+          </div>
+          <ul className={click ? "nav_menu active" : "nav_menu"}>
+            <div className="dropdown">
+              <li className="nav_item" onClick={handleClick}>
+                <Link className="link" to="/services">
+                  Services
+                </Link>
+                <div className="dropdown_content">
+                  <li onClick={handleClick}>
+                    <Link className="link" to="/massage">
+                      Massage
+                    </Link>
+                  </li>
+                  <li onClick={handleClick}>
+                    <Link className="link" to="/yoga">
+                      Yoga
+                    </Link>
+                  </li>
+                  <li onClick={handleClick}>
+                    <Link className="link" to="/reiki">
+                      Reiki
+                    </Link>
+                  </li>
+                </div>
+              </li>
+            </div>
+            <div className="mobile_nav">
+              <li className="nav_item" onClick={handleClick}>
                 <Link className="link" to="/massage">
                   Massage
                 </Link>
+              </li>
+              <li className="nav_item" onClick={handleClick}>
                 <Link className="link" to="/yoga">
                   Yoga
                 </Link>
+              </li>
+              <li className="nav_item" onClick={handleClick}>
                 <Link className="link" to="/reiki">
                   Reiki
                 </Link>
-              </div>
-            </li>
-          </div>
-          <div className="mobile_nav">
-            <li className="nav_item">
-              <Link className="link" to="/massage">
-                Massage
+              </li>
+            </div>
+            <li className="nav_item" onClick={handleClick}>
+              <Link className="link" to="/about">
+                Meet Steph
               </Link>
             </li>
             <li className="nav_item">
-              <Link className="link" to="/yoga">
-                Yoga
+              <Link className="link" to="/faq" onClick={handleClick}>
+                FAQ
               </Link>
             </li>
             <li className="nav_item">
-              <Link className="link" to="/reiki">
-                Reiki
-              </Link>
+              <a href="#" className="book_now" id="book_now_id">
+                Book Now
+              </a>
             </li>
-          </div>
-          <li className="nav_item">
-            <Link className="link" to="/about">
-              Meet Steph
-            </Link>
-          </li>
-          <li className="nav_item">
-            <Link className="link" to="/faq">
-              FAQ
-            </Link>
-          </li>
-          <li className="nav_item">
-            <a href="#" className="book_now" id="book_now_id">
-              Book Now
-            </a>
-          </li>
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      </div>
 
       <Routes>
         <Route path="/" element={<Landing />} />

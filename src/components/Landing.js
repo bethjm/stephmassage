@@ -1,35 +1,19 @@
 import React from "react";
-// import Reviews from "./Landing_Page/Reviews";
 
-import "./Landing.css";
+import Header from "./UI/Header";
+import Reviews from "./UI/Reviews";
+import HomePageServices from "./Landing_Page/HomePageServices";
 
 function Landing() {
   return (
     <div className="landing_page">
-      {/* <div className="landing_page_container">
-        <div className="header">
-          <h1>Unwind, heal, and feel at peace</h1>
-        </div>
+      <div className="landing_container">
+        <Header />
+        <HomePageServices />
 
-        <div className="services">
-          <h2>Services</h2>
-          <div className="services_service">
-            <a>IMAGE PLACEHOLDER</a>
-            <h4>Massage</h4>
-          </div>
-          <div className="services_service">
-            <a>IMAGE PLACEHOLDER</a>
-            <h4>Yoga</h4>
-          </div>
-          <div className="services_service">
-            <a>IMAGE PLACEHOLDER</a>
-            <h4>Reiki</h4>
-          </div>
-        </div>
-
-        <div className="approach">
+        {/* <div className="approach">
           <div className="approach_image">
-            <a>IMAGE PLACEHOLDER</a>
+            <p>IMAGE PLACEHOLDER</p>
           </div>
           <div className="approach_my_approach">
             <h2>My Approach</h2>
@@ -58,7 +42,7 @@ function Landing() {
 
         <div className="meet_steph">
           <div className="meet_steph_image">
-            <img />
+            <p>IMAGE PLACEHOLDER</p>
           </div>
           <div className="meet_steph_text">
             <p>
@@ -73,8 +57,8 @@ function Landing() {
               mauris lobortis. Cras sit amet velit vitae nibh rhoncus dapibus.
             </p>
           </div>
-        </div>
-      </div> */}
+        </div> */}
+      </div>
     </div>
   );
 }
