@@ -3,7 +3,7 @@ import React from "react";
 import Header from "./UI/Header";
 import HomePageServices from "./Landing_Page/HomePageServices";
 import Approach from "./Landing_Page/Approach";
-import Reviews from "./UI/Reviews";
+import Reviews from "./Reviews";
 import MeetSteph from "./Landing_Page/MeetSteph";
 
 function Landing() {
@@ -11,10 +11,10 @@ function Landing() {
     <div className="landing_page">
       <div className="landing_container">
         <Header />
-        <HomePageServices />
+        {/* <HomePageServices />
         <Approach />
-        {/* <Reviews /> */}
-        <MeetSteph />
+        <MeetSteph /> */}
+        <Reviews />
       </div>
     </div>
   );
