@@ -39,21 +39,23 @@ function App() {
                   Services
                 </Link>
                 <div className="dropdown_content">
-                  <li onClick={handleClick}>
-                    <Link className="link" to="/massage">
-                      Massage
-                    </Link>
-                  </li>
-                  <li onClick={handleClick}>
-                    <Link className="link" to="/yoga">
-                      Yoga
-                    </Link>
-                  </li>
-                  <li onClick={handleClick}>
-                    <Link className="link" to="/reiki">
-                      Reiki
-                    </Link>
-                  </li>
+                  <ul>
+                    <li onClick={handleClick}>
+                      <Link className="link" to="/massage">
+                        Massage
+                      </Link>
+                    </li>
+                    <li onClick={handleClick}>
+                      <Link className="link" to="/yoga">
+                        Yoga
+                      </Link>
+                    </li>
+                    <li onClick={handleClick}>
+                      <Link className="link" to="/reiki">
+                        Reiki
+                      </Link>
+                    </li>
+                  </ul>
                 </div>
               </li>
             </div>

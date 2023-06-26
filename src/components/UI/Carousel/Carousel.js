@@ -2,13 +2,8 @@ import React, { useState } from "react";
 import { useSwipeable } from "react-swipeable";
 
 import "./Carousel.css";
-
-export const CarouselItem = ({ children, width }) => {
-  return (
-    <div className="carousel_item" style={{ width: width }}>
-      {children}
-    </div>
-  );
+export const CarouselItem = ({ children }) => {
+  return <div className="carousel_item">{children}</div>;
 };
 
 const Carousel = ({ children }) => {
@@ -25,7 +20,7 @@ const Carousel = ({ children }) => {
   };
 
   const handlers = useSwipeable({
-    oneSwipedLeft: () => updateIndex(activeIndex + 1),
+    onSwipedLeft: () => updateIndex(activeIndex + 1),
     onSwipeRight: () => updateIndex(activeIndex - 1),
   });
 
@@ -36,7 +31,7 @@ const Carousel = ({ children }) => {
         style={{ transform: `translateX(-${activeIndex * 100}%)` }}
       >
         {React.Children.map(children, (child, index) => {
-          return React.cloneElement(child, { width: "100%" });
+          return child;
         })}
       </div>
       <div className="indicators">

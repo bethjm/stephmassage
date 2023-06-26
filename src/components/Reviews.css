@@ -1,0 +1,17 @@
+.reviews {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--blue);
+}
+
+.reviews .review_carousel {
+  white-space: pre-wrap;
+  padding: 10%;
+  width: 100%;
+}
+
+.reviews .reviews_text {
+  width: 100%;
+}
