@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { useSwipeable } from "react-swipeable";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 import "./Carousel.css";
 export const CarouselItem = ({ children }) => {
@@ -31,24 +34,38 @@ const Carousel = ({ children }) => {
         style={{ transform: `translateX(-${activeIndex * 100}%)` }}
       >
         {React.Children.map(children, (child, index) => {
-          return child;
+          return React.cloneElement(child, { width: "100%" });
         })}
       </div>
       <div className="indicators">
-        <button
+        <FontAwesomeIcon
+          icon={faArrowLeft}
+          onClick={() => {
+            updateIndex(activeIndex - 1);
+          }}
+        />
+        {/* <button
           onClick={() => {
             updateIndex(activeIndex - 1);
           }}
         >
           Prev
-        </button>
-        <button
+        </button> */}
+
+        <FontAwesomeIcon
+          icon={faArrowRight}
+          onClick={() => {
+            updateIndex(activeIndex + 1);
+          }}
+        />
+
+        {/* <button
           onClick={() => {
             updateIndex(activeIndex + 1);
           }}
         >
           Next
-        </button>
+        </button> */}
       </div>
     </div>
   );
