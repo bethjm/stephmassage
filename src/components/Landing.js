@@ -11,10 +11,10 @@ function Landing() {
     <div className="landing_page">
       <div className="landing_container">
         <Header />
-        {/* <HomePageServices />
+        <HomePageServices />
         <Approach />
-        <MeetSteph /> */}
         <Reviews />
+        <MeetSteph />
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 
 import Carousel, { CarouselItem } from "./UI/Carousel/Carousel";
 
-import ReviewsAPI from "./ReviewsAPI/ReviewsAPI";
+import ReviewsAPI from "./APIS/ReviewsAPI";
 
 import "./Reviews.css";
 
