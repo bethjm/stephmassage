@@ -5,6 +5,7 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 import "./Carousel.css";
+
 export const CarouselItem = ({ children }) => {
   return <div className="carousel_item">{children}</div>;
 };
