@@ -2,9 +2,6 @@ import React, { useState } from "react";
 import Collapsed from "./Collapsed";
 import Expanded from "./Expanded";
 
-/**
- * @function Accordion
- */
 const Accordion = ({ children, initial }) => {
   const [open, setOpen] = useState(initial);
 
@@ -20,6 +17,7 @@ const Accordion = ({ children, initial }) => {
 
         const collapsed = React.cloneElement(child.props.children[0], {
           handleOpen,
+          isOpen: id === open,
         });
 
         const expanded = child.props.children[1];

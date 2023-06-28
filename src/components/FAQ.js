@@ -9,7 +9,6 @@ function FAQ() {
   return (
     <>
       <Header />
-      <p>hi</p>
       <Accordion>
         {FAQAPI.general.map(({ question, answer }) => {
           return (
