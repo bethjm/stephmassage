@@ -1,26 +1,28 @@
-import React from "react";
-
-import FAQAPI from "./APIS/FAQAPI";
+import React, { Link } from "react";
+import "./FAQ.css";
 
 import Header from "./UI/Header";
-import Accordion from "./UI/Accordion/Accordion";
 
 function FAQ() {
   return (
     <>
       <Header />
-      <Accordion>
-        {FAQAPI.general.map(({ question, answer }) => {
-          return (
-            <Accordion.Item key={question}>
-              <Accordion.Collapsed id={question}>
-                {question}
-              </Accordion.Collapsed>
-              <Accordion.Expanded>{answer}</Accordion.Expanded>
-            </Accordion.Item>
-          );
-        })}
-      </Accordion>
+      <h1>What do you have questions about?</h1>
+      <a href="/faq_general">
+        <button>general</button>
+      </a>
+      <a href="/faq_massage">
+        <button>massage</button>
+      </a>
+      <a href="/faq_yoga">
+        <button>yoga</button>
+      </a>
+      <a href="/faq_reiki">
+        <button>reiki</button>
+      </a>
+      <a href="/faq_cupping">
+        <button>cupping</button>
+      </a>
     </>
   );
 }

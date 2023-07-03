@@ -9,6 +9,11 @@ import { Link, Route, Routes } from "react-router-dom";
 import About from "./components/About";
 import Services from "./components/Services";
 import FAQ from "./components/FAQ";
+import GenFAQ from "./components/FAQ_Pages/GenFAQ";
+import YogaFAQ from "./components/FAQ_Pages/YogaFAQ";
+import CupFAQ from "./components/FAQ_Pages/CupFAQ";
+import ReikiFAQ from "./components/FAQ_Pages/ReikiFAQ";
+import MassageFAQ from "./components/FAQ_Pages/MassageFAQ";
 import Landing from "./components/Landing";
 import Yoga from "./components/Service_Offering/Yoga";
 import Massage from "./components/Service_Offering/Massage";
@@ -100,6 +105,11 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/faq" element={<FAQ />} />
+        <Route path="/faq_general" element={<GenFAQ />} />
+        <Route path="/faq_yoga" element={<YogaFAQ />} />
+        <Route path="/faq_reiki" element={<ReikiFAQ />} />
+        <Route path="/faq_massage" element={<MassageFAQ />} />
+        <Route path="/faq_cupping" element={<CupFAQ />} />
         <Route path="/massage" element={<Massage />} />
         <Route path="/reiki" element={<Reiki />} />
         <Route path="/yoga" element={<Yoga />} />

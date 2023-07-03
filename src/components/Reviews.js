@@ -12,14 +12,12 @@ function Reviews() {
       <Carousel>
         {ReviewsAPI.map((review) => {
           return (
-            <>
-              <CarouselItem key={review.id}>
-                <div className="review_carousel">
-                  <p className="review_text">{review.review}</p>
-                  <h4 className="review_name">{review.name}</h4>
-                </div>
-              </CarouselItem>
-            </>
+            <CarouselItem key={review.id}>
+              <div className="review_carousel">
+                <p className="review_text">{review.review}</p>
+                <h4 className="review_name">{review.name}</h4>
+              </div>
+            </CarouselItem>
           );
         })}
       </Carousel>
