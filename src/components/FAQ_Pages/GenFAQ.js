@@ -9,10 +9,10 @@ import FAQColumn from "./FAQColumn";
 
 function GenFAQ() {
   return (
-    <div className="faq">
-      <div className="faq_container">
+    <div className="genfaq">
+      <div className="genfaq_container">
         <FAQColumn />
-        <div className="faq_accordion">
+        <div className="genfaq_accordion">
           <Accordion>
             {FAQAPI.general.map(({ question, answer }) => {
               return (

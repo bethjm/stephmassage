@@ -1,11 +1,11 @@
-.faq {
+.genfaq {
   padding-top: 10%;
   background-color: #f2f2f2;
   position: relative;
   height: 100vh;
 }
 
-.faq .faq_container {
+.genfaq .genfaq_container {
   width: 90%;
   margin: auto;
   display: flex;
@@ -13,12 +13,12 @@
   flex-direction: row;
 }
 
-.faq .faq_accordion {
+.genfaq .genfaq_accordion {
   width: 60%;
 }
 
 @media screen and (max-width: 940px) {
-  .faq .faq_accordion {
+  .genfaq .genfaq_accordion {
     width: 100%;
   }
 }

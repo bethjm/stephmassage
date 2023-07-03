@@ -9,10 +9,10 @@ import FAQColumn from "./FAQColumn";
 
 function CupFAQ() {
   return (
-    <div className="faq">
-      <div className="faq_container">
+    <div className="genfaq">
+      <div className="genfaq_container">
         <FAQColumn />
-        <div className="faq_accordion">
+        <div className="genfaq_accordion">
           <Accordion>
             {FAQAPI.cupping.map(({ question, answer }) => {
               return (
