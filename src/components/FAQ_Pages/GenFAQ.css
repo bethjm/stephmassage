@@ -1,10 +1,13 @@
 .faq {
-  width: 90%;
-  margin: auto;
-  padding-top: 7%;
+  padding-top: 10%;
+  background-color: #f2f2f2;
+  position: relative;
+  height: 100vh;
 }
 
 .faq .faq_container {
+  width: 90%;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;

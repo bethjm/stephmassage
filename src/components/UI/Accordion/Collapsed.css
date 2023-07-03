@@ -1,3 +1,11 @@
+.collapsed_container {
+  color: var(--text);
+  background: rgba(218, 188, 180, 0.9);
+  padding: 15px 15px;
+  border-radius: 10px;
+  margin-bottom: 3%;
+}
+
 .rotate-icon {
   transform: rotate(45deg);
 }
