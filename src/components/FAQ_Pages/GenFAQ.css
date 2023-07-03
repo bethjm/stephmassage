@@ -1,4 +1,5 @@
 .genfaq {
+  margin-top: 40px;
   padding-top: 10%;
   background-color: #f2f2f2;
   position: relative;
@@ -18,6 +19,10 @@
 }
 
 @media screen and (max-width: 940px) {
+  .genfaq {
+    height: 100%;
+  }
+
   .genfaq .genfaq_accordion {
     width: 100%;
   }

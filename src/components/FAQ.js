@@ -1,12 +1,10 @@
-import React, { Link } from "react";
+import React from "react";
 import "./FAQ.css";
+
 import GenFAQ from "./images/generalfaq.png";
 import massageFAQ from "./images/massageFAQ.png";
-
 import reikiFAQ from "./images/reikiFAQ.png";
-
 import cuppingFAQ from "./images/cuppingFAQ.png";
-
 import yogaFAQ from "./images/yogaFAQ.png";
 
 function FAQ() {
