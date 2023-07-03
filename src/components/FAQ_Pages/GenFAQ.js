@@ -4,11 +4,10 @@ import "./GenFAQ.css";
 
 import FAQAPI from "../APIS/FAQAPI";
 
-import Header from "../UI/Header";
 import Accordion from "../UI/Accordion/Accordion";
 import FAQColumn from "./FAQColumn";
 
-function FAQ() {
+function GenFAQ() {
   return (
     <div className="faq">
       <div className="faq_container">
@@ -32,4 +31,4 @@ function FAQ() {
   );
 }
 
-export default FAQ;
+export default GenFAQ;

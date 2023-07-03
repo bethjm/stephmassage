@@ -1,11 +1,33 @@
 import React from "react";
 
+import "./GenFAQ.css";
+
+import FAQAPI from "../APIS/FAQAPI";
+
+import Accordion from "../UI/Accordion/Accordion";
+import FAQColumn from "./FAQColumn";
+
 function MassageFAQ() {
   return (
-    <>
-      <p>hi from</p>
-      <p>test</p>
-    </>
+    <div className="faq">
+      <div className="faq_container">
+        <FAQColumn />
+        <div className="faq_accordion">
+          <Accordion>
+            {FAQAPI.massage.map(({ question, answer }) => {
+              return (
+                <Accordion.Item key={question}>
+                  <Accordion.Collapsed id={question}>
+                    {question}
+                  </Accordion.Collapsed>
+                  <Accordion.Expanded>{answer}</Accordion.Expanded>
+                </Accordion.Item>
+              );
+            })}
+          </Accordion>
+        </div>
+      </div>
+    </div>
   );
 }
 
