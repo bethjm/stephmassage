@@ -1,6 +1,6 @@
 import React from "react";
 
-import Header from "./UI/Header";
+import Header from "../components/Headers/LandingHeader";
 import HomePageServices from "./Landing_Page/HomePageServices";
 import Approach from "./Landing_Page/Approach";
 import Reviews from "./Reviews";

@@ -14,7 +14,7 @@ function YogaFAQ() {
         <FAQColumn />
         <div className="genfaq_accordion">
           <Accordion>
-            {FAQAPI.general.map(({ question, answer }) => {
+            {FAQAPI.yoga.map(({ question, answer }) => {
               return (
                 <Accordion.Item key={question}>
                   <Accordion.Collapsed id={question}>

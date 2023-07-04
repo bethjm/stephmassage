@@ -1,0 +1,6 @@
+.mini_FAQ .mini_FAQ_container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
