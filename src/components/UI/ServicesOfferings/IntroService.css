@@ -1,3 +1,16 @@
 .intro_services {
   background-color: var(--pink);
 }
+
+.intro_services .intro_services_container {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.intro_services .intro_services_container h1,
+.intro_services .intro_services_container p {
+  padding-bottom: 5%;
+}

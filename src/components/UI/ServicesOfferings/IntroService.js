@@ -9,7 +9,7 @@ function IntroServices({ title, content, link }) {
       <div className="intro_services_container">
         <h1>{title}</h1>
         <p>{content}</p>
-        <Button to={link}>Click me!</Button>
+        <Button to={link}>Book a session</Button>
       </div>
     </div>
   );
