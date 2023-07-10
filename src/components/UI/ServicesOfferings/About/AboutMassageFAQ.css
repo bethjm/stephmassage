@@ -1,0 +1,20 @@
+.about-massage {
+  background-color: var(--dark-blue);
+}
+
+.about-massage .about-massage-container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 80%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.about-massage .text-content {
+  width: 60%;
+}
+
+.about-massage .text-content h1 {
+  padding-bottom: 5%;
+}
