@@ -1,0 +1,15 @@
+.intro_booking {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.intro_booking_container {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.intro_booking_container h1,
+.intro_booking_container p {
+  padding-bottom: 3%;
+}

@@ -1,13 +1,13 @@
 import React from "react";
 
-import "./IntroService.css";
+import "./Booking.css";
 import Button from "../Button/Button";
 
 function IntroServices({ service, link }) {
   return (
     <div className="intro_booking">
       <div className="intro_booking_container">
-        <h2>How can I start {service} sessions?</h2>
+        <h1>How can I start {service} sessions?</h1>
         <p>
           To book a {service} session click a link below to find a time that
           works best for you. We look forward to helping you achieve holistic
