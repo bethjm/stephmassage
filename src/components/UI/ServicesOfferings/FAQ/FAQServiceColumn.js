@@ -1,11 +1,15 @@
 import React from "react";
 
-function Test() {
+import "./FAQServiceColumn.css";
+
+function FAQServiceColumn() {
   return (
-    <>
-      <p>column</p>
-    </>
+    <div className="service_column">
+      <div className="service_column_container">
+        <p>column</p>
+      </div>
+    </div>
   );
 }
 
-export default Test;
+export default FAQServiceColumn;

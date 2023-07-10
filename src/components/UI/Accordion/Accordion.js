@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Collapsed from "./Collapsed";
 import Expanded from "./Expanded";
 
-const Accordion = ({ children, initial }) => {
+const Accordion = ({ children, initial, accordionWidth }) => {
   const [open, setOpen] = useState(initial);
 
   const handleOpen = (e) => {
@@ -11,7 +11,7 @@ const Accordion = ({ children, initial }) => {
   };
 
   return (
-    <div>
+    <div style={{ width: accordionWidth }}>
       {React.Children.map(children, (child) => {
         const id = child.props.children[0].props.id;
 

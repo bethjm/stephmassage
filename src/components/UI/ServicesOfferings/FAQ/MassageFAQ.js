@@ -4,7 +4,7 @@ import Accordion from "../../Accordion/Accordion";
 
 import FAQServiceColumn from "./FAQServiceColumn";
 
-import "./MiniFAQ.css";
+import "./MassageFAQ.css";
 
 function MassageFAQ() {
   // Specify the question IDs you want to display
@@ -39,7 +39,7 @@ function MassageFAQ() {
           <FAQServiceColumn />
         </div>
         <div className="mini_FAQ_accordion">
-          <Accordion>
+          <Accordion accordionWidth="100%">
             {mappedElements.map(({ question, answer }) => (
               <Accordion.Item key={question}>
                 <Accordion.Collapsed id={question}>
