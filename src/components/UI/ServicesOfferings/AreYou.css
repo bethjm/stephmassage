@@ -1,3 +1,19 @@
 .are_you {
   background-color: var(--dark-blue);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.are_you .are_you_container {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.are_you_container li {
+  line-height: 3rem;
+}
+
+.are_you_container h3 {
+  padding-top: 2%;
 }

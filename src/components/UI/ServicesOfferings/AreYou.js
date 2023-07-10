@@ -6,7 +6,7 @@ function AreYou({ Li1, Li2, Li3, Li4, Li5, service }) {
   return (
     <div className="are_you">
       <div className="are_you_container">
-        <h2>Do you struggle with...</h2>
+        <h1>Do you struggle with...</h1>
         <ul>
           <li>{Li1}</li>
           <li>{Li2}</li>
@@ -14,7 +14,7 @@ function AreYou({ Li1, Li2, Li3, Li4, Li5, service }) {
           <li>{Li4}</li>
           <li>{Li5}</li>
         </ul>
-        <h4>Then {service} is right for you!</h4>
+        <h3>Then a {service} with Steph is right for you!</h3>
       </div>
     </div>
   );

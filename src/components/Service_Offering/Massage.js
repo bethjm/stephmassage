@@ -16,7 +16,7 @@ const MassageService = {
 const MassageAreYou = {
   Li1: `daily stressors weighing you down? `,
   Li2: `muscle discomfort or tension? `,
-  Li3: `reaching your peak performance or recovering from intense workouts?`,
+  Li3: `recovering from intense workouts?`,
   Li4: `finding moments of tranquility and self-care?`,
   Li5: `finding a massage therapist who truly listens to your needs?`,
   service: `massage`,
