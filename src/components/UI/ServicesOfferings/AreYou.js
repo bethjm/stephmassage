@@ -2,11 +2,11 @@ import React from "react";
 
 import "./AreYou.css";
 
-function AreYou({ Li1, Li2, Li3, Li4, Li5, service }) {
+function AreYou({ title, Li1, Li2, Li3, Li4, Li5, service }) {
   return (
     <div className="are_you">
       <div className="are_you_container">
-        <h1>Do you struggle with...</h1>
+        <h1>{title}</h1>
         <ul>
           <li>{Li1}</li>
           <li>{Li2}</li>

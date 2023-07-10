@@ -14,6 +14,7 @@ const MassageService = {
 };
 
 const MassageAreYou = {
+  title: `Do you struggle with...`,
   Li1: `daily stressors weighing you down? `,
   Li2: `muscle discomfort or tension? `,
   Li3: `recovering from intense workouts?`,
@@ -35,6 +36,7 @@ function Massage() {
           link={serviceLink} // Pass the link as a prop
         />
         <AreYou
+          title={MassageAreYou.title}
           Li1={MassageAreYou.Li1}
           Li2={MassageAreYou.Li2}
           Li3={MassageAreYou.Li3}

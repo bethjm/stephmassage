@@ -6,18 +6,18 @@ import FAQServiceColumn from "./FAQServiceColumn";
 
 import "./MiniFAQ.css";
 
-function MassageFAQ() {
+function ReikiFAQ() {
   // Specify the question IDs you want to display
-  const questionIds = [2, 3, 4, 8];
+  const questionIds = [2, 4, 5, 6];
 
   // Create an empty array to store the mapped elements
   const mappedElements = [];
 
   // Access the 'massage' category directly from the FAQAPI
-  const massageCategory = FAQAPI.massage;
+  const reikiCategory = FAQAPI.reiki;
 
   // Filter the questions based on the specified question IDs
-  const filteredQuestions = massageCategory.filter((question) =>
+  const filteredQuestions = reikiCategory.filter((question) =>
     questionIds.includes(Number(question.id))
   );
 
@@ -55,4 +55,4 @@ function MassageFAQ() {
   );
 }
 
-export default MassageFAQ;
+export default ReikiFAQ;

@@ -2,7 +2,7 @@ import React from "react";
 
 import FAQServiceColumn from "../FAQ/FAQServiceColumn";
 
-import "./AboutMassageFAQ.css";
+import "./About.css";
 
 function AboutMassage() {
   return (
@@ -12,7 +12,7 @@ function AboutMassage() {
           <FAQServiceColumn />
         </div>
         <div className="text-content">
-          <h1>Steph Journey to becoming a massage therapist</h1>
+          <h1>The journey of Bodywork by Stephanie...</h1>
           <p>
             Stephanie's passion for the healing arts began at a young age when
             she discovered the profound impact touch could have on the mind,
