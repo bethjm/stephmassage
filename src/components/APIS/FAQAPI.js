@@ -132,9 +132,64 @@ const FAQAPI = {
   ],
   yoga: [
     {
-      id: 0,
-      question: `none`,
-      answer: `none`,
+      id: 1,
+      question: `What if I am not flexible?`,
+      answer: `My yoga classes are for all abilities. Everyone is welcome. `,
+    },
+    {
+      id: 2,
+      question: `What if I have injuries?`,
+      answer: `You can let me know before class of any injuries or concerns so we can modify. The class is very gentle and slow paced. `,
+    },
+    {
+      id: 3,
+      question: `Do you offer group classes?`,
+      answer: `Weekly small group yoga classes are available`,
+    },
+    {
+      id: 4,
+      question: `Do you offer 1:1 sessions?`,
+      answer: `I offer foundation/beginner yoga sessions for 1:1.`,
+    },
+    {
+      id: 5,
+      question: `Are your yoga sessions tailored to individual client needs?`,
+      answer: `The one on one yoga option is a foundational/beginners focused offering. The sessions will be tailored to your goals and what is comfortable for you. `,
+    },
+    {
+      id: 6,
+      question: `What do group classes look like?`,
+      answer: `The yoga class is a small group (6 students max) and it is a slow flow of yoga and a series of restorative yoga posters with reiki and gentle craniosacral infused in by me. `,
+    },
+    {
+      id: 7,
+      question: `How often should I do yoga?`,
+      answer: `I encourage and empower everyone to take their yoga practice and make it fit their lifestyle. `,
+    },
+    {
+      id: 8,
+      question: `How is your yoga different than other yoga teachers?`,
+      answer: `I bring in a strong knowledge of human anatomy with my massage therapist training.  I also have it in my scope to assist with hands on adjustments and light massage during the longer held restorative postures. I also keep my classes small so I can be aware of all students. `,
+    },
+    {
+      id: 9,
+      question: `What kind of yoga do you teach?`,
+      answer: `Slow flow and restorative yoga.`,
+    },
+    {
+      id: 10,
+      question: `Who should see you for yoga sessions?`,
+      answer: `Anyone who is looking to escape the hustle and bustle and tap into a quiet space inside of themselves.  `,
+    },
+    {
+      id: 11,
+      question: `What certifications do you have?`,
+      answer: `I am 200 hour certified yoga instructor via Health Yoga Life in Boston where I Studied in January 2020. `,
+    },
+    {
+      id: 12,
+      question: `How do you plan your yoga classes?`,
+      answer: `I plan my yoga classes to be a class I would love to take. A class that warms up the entire body and allows the mind to rest and relax for the 75 minutes we are together. All the little details come together to make the experience magic. `,
     },
   ],
   cupping: [

@@ -24,7 +24,8 @@ const MassageAreYou = {
 };
 
 function Massage() {
-  const serviceLink = "https://www.youtube.com"; // Replace with the actual link for the massage service
+  const serviceLink =
+    "https://bodyworkbystephanie.noterro.com/service-category/35565/massage-therapy"; // Replace with the actual link for the massage service
 
   return (
     <div className="massage_services">

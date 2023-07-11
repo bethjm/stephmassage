@@ -22,7 +22,8 @@ const ReikiAreYou = {
 };
 
 function Reiki() {
-  const serviceLink = "https://www.youtube.com"; // Replace with the actual link for the massage service
+  const serviceLink =
+    "https://bodyworkbystephanie.noterro.com/service/119946/reiki"; // Replace with the actual link for the massage service
 
   return (
     <div className="massage_services">
