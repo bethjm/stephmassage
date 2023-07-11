@@ -1,12 +1,38 @@
 import React from "react";
+import "./Services.css";
+
+import yoga from "../components/images/yoga2.jpg";
+import massage from "../components/images/massage2.jpg";
+import reiki from "../components/images/reiki2.jpg";
 
 function Services() {
   return (
-    <>
-      <p>hi from</p>
-      <p>serivces</p>
-      {/* this will be a breif summary of all the services steph has? */}
-    </>
+    <div className="services">
+      <div className="services_container">
+        <h2>Services</h2>
+        <div className="all_single_services">
+          <div className="single_service">
+            <a href="/massage">
+              <img src={massage} alt="person doing yoga" />
+              <h4>Massage</h4>
+            </a>
+          </div>
+          <div className="single_service">
+            <a href="/yoga">
+              <img src={yoga} alt="person doing yoga" />
+              <h4>Yoga</h4>
+            </a>
+          </div>
+          <div className="single_service">
+            <a href="/reiki">
+              <img src={reiki} alt="person doing yoga" />
+              <h4>Reiki</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
+
 export default Services;

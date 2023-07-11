@@ -1,5 +1,5 @@
 import React from "react";
-import MassageHeader from "../Headers/MassageHeader";
+import YogaHeader from "../Headers/YogaHeader";
 import IntroServices from "../UI/ServicesOfferings/IntroService";
 import AreYou from "../UI/ServicesOfferings/AreYou";
 import YogaFAQ from "../UI/ServicesOfferings/FAQ/YogaFAQ";
@@ -29,7 +29,7 @@ function Yoga() {
   return (
     <div className="massage_services">
       <div className="massage_services_container">
-        <MassageHeader />
+        <YogaHeader />
         <IntroServices
           title={YogaService.title}
           content={YogaService.content}

@@ -1,5 +1,5 @@
 import React from "react";
-import MassageHeader from "../Headers/MassageHeader";
+import ReikiHeader from "../Headers/ReikiHeader";
 import IntroServices from "../UI/ServicesOfferings/IntroService";
 import AreYou from "../UI/ServicesOfferings/AreYou";
 import ReikiFAQ from "../UI/ServicesOfferings/FAQ/ReikiFAQ";
@@ -28,7 +28,7 @@ function Reiki() {
   return (
     <div className="massage_services">
       <div className="massage_services_container">
-        <MassageHeader />
+        <ReikiHeader />
         <IntroServices
           title={ReikiService.title}
           content={ReikiService.content}

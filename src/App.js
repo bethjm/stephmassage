@@ -92,7 +92,11 @@ function App() {
               </Link>
             </li>
             <li className="nav_item">
-              <a href="#" className="book_now" id="book_now_id">
+              <a
+                href="https://bodyworkbystephanie.noterro.com/"
+                className="book_now"
+                id="book_now_id"
+              >
                 Book Now
               </a>
             </li>
