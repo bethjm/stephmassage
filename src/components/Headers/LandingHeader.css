@@ -29,5 +29,6 @@
 
 .landing_header_page .landing_header_container h1 {
   text-align: center;
-  font-size: 5rem;
+  font-size: 4.5rem;
+  font-style: italic;
 }

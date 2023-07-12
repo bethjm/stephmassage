@@ -1,51 +1,53 @@
 @import url("https://fonts.cdnfonts.com/css/open-sans");
 
 .services {
-  position: relative;
   padding-top: 3%;
   padding-bottom: 5%;
-  height: 50vh;
+  height: 50%;
   background-color: var(--tan);
   color: var(--text);
 }
 
-.services .services_container {
-  width: 70%;
-  margin: auto;
-}
-
-.services .services_container h2 {
+.services h2 {
   text-align: center;
   font-size: 3rem;
   font-weight: 700;
 }
 
-.services .all_single_services {
+.services .services_container {
+  width: 70%;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 5%;
+  margin: auto;
+  align-items: center;
 }
 
-.services .all_single_services .single_service a {
-  display: flex;
-  flex-direction: column;
+.services .single_service {
+  margin-top: 10%;
+}
+
+.services .single_service a {
   width: 12rem;
   color: var(--text);
 }
 
-.services .all_single_services .single_service img {
-  align-items: center;
+.services .single_service img {
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
 }
 
-.services .all_single_services .single_service h4 {
-  margin-top: 4%;
+.services .single_service h4 {
+  margin-top: 2%;
   font-family: "Open Sans", sans-serif;
   font-style: italic;
-  justify-content: center;
   text-align: center;
+}
+
+@media screen and (max-width: 940px) {
+  .services .services_container {
+    width: 50%;
+  }
 }
