@@ -1,9 +1,9 @@
 import React from "react";
 import "./Services.css";
 
-import yoga from "../components/images/yoga2.jpg";
-import massage from "../components/images/massage2.jpg";
-import reiki from "../components/images/reiki2.jpg";
+import yoga from "../images/yoga2.jpg";
+import massage from "../images/massage2.jpg";
+import reiki from "../images/reiki2.jpg";
 
 function Services() {
   return (

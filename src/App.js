@@ -7,7 +7,6 @@ import logo from "./components/images/lotus.png";
 import { Link, Route, Routes } from "react-router-dom";
 
 import About from "./components/About";
-import Services from "./components/Services";
 import FAQ from "./components/FAQ";
 import GenFAQ from "./components/FAQ_Pages/GenFAQ";
 import YogaFAQ from "./components/FAQ_Pages/YogaFAQ";
@@ -40,9 +39,7 @@ function App() {
           <ul className={click ? "nav_menu active" : "nav_menu"}>
             <div className="dropdown">
               <li className="nav_item" onClick={handleClick}>
-                <Link className="link" to="/services">
-                  Services
-                </Link>
+                <p>Services</p>
                 <div className="dropdown_content">
                   <ul>
                     <li onClick={handleClick}>
@@ -95,7 +92,6 @@ function App() {
               <a
                 href="https://bodyworkbystephanie.noterro.com/"
                 className="book_now"
-                id="book_now_id"
               >
                 Book Now
               </a>
@@ -107,7 +103,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/faq_general" element={<GenFAQ />} />
         <Route path="/faq_yoga" element={<YogaFAQ />} />

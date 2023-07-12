@@ -1,9 +1,10 @@
 @import url("https://fonts.cdnfonts.com/css/open-sans");
 
 .services {
+  position: relative;
   padding-top: 3%;
   padding-bottom: 5%;
-  height: 50%;
+  height: 50vh;
   background-color: var(--tan);
   color: var(--text);
 }
@@ -36,6 +37,9 @@
 
 .services .all_single_services .single_service img {
   align-items: center;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
 }
 
 .services .all_single_services .single_service h4 {

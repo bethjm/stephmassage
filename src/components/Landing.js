@@ -1,7 +1,7 @@
 import React from "react";
 
 import Header from "../components/Headers/LandingHeader";
-import Services from "./Services";
+import Services from "./Landing_Page/Services";
 import Approach from "./Landing_Page/Approach";
 import Reviews from "./Reviews";
 import MeetSteph from "./Landing_Page/MeetSteph";
