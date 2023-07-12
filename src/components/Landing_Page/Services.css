@@ -16,16 +16,19 @@
 
 .services .services_container {
   width: 70%;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 5%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2rem; /* Adjust the gap between grid items as needed */
   margin: auto;
   align-items: center;
+  margin-top: 5%;
 }
 
 .services .single_service {
-  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .services .single_service a {
@@ -34,9 +37,10 @@
 }
 
 .services .single_service img {
-  width: 12rem;
-  height: 12rem;
+  width: 14rem;
+  height: 14rem;
   border-radius: 50%;
+  margin-bottom: 1rem; /* Add this line to create space between image and text */
 }
 
 .services .single_service h4 {
@@ -48,6 +52,16 @@
 
 @media screen and (max-width: 940px) {
   .services .services_container {
-    width: 50%;
+    width: 90%;
+    justify-content: center;
+    grid-template-columns: auto;
+  }
+
+  .services .single_service {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
