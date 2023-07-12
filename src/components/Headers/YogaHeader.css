@@ -26,3 +26,8 @@
   margin: auto;
   padding: 1rem;
 }
+
+.yoga_header_page .yoga_header_container h1 {
+  text-align: center;
+  font-size: 5rem;
+}
