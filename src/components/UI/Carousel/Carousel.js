@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { useSwipeable } from "react-swipeable";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faHandPointLeft,
+  faHandPointRight,
+} from "@fortawesome/free-solid-svg-icons";
 
 import "./Carousel.css";
 
@@ -40,14 +42,14 @@ const Carousel = ({ children }) => {
       </div>
       <div className="indicators">
         <FontAwesomeIcon
-          icon={faArrowLeft}
+          icon={faHandPointLeft}
           onClick={() => {
             updateIndex(activeIndex - 1);
           }}
         />
 
         <FontAwesomeIcon
-          icon={faArrowRight}
+          icon={faHandPointRight}
           onClick={() => {
             updateIndex(activeIndex + 1);
           }}

@@ -1,6 +1,7 @@
 .carousel {
   overflow: hidden;
   width: 800px;
+  padding-bottom: 5%;
 }
 
 .inner {
@@ -19,5 +20,9 @@
 
 .indicators {
   display: flex;
-  justify-content: center;
+  width: 40%;
+  margin: auto;
+  font-size: 2rem;
+  justify-content: space-between;
+  color: var(--text);
 }
