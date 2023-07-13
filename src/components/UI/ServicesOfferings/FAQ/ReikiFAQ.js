@@ -40,7 +40,11 @@ function ReikiFAQ() {
           <Accordion accordionWidth="100%">
             {mappedElements.map(({ question, answer }) => (
               <Accordion.Item key={question}>
-                <Accordion.Collapsed id={question}>
+                <Accordion.Collapsed
+                  id={question}
+                  color="white"
+                  backgroundColor="var(--dark-blue)"
+                >
                   {question}
                 </Accordion.Collapsed>
                 <Accordion.Expanded>{answer}</Accordion.Expanded>

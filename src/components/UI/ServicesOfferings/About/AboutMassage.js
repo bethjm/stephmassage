@@ -18,6 +18,7 @@ function AboutMassage() {
             find comfort and relief from their physical and emotional
             challenges.
           </p>
+          <br />
           <p>
             What has fueled Stephanies journey is her genuine compassion and
             empathy for others. Stephanie believes that healing is not solely
@@ -26,6 +27,7 @@ function AboutMassage() {
             ability to listen deeply, she establishes a foundation of trust and
             understanding.
           </p>
+          <br />
           <p>
             Whether it's easing chronic pain, reducing stress and anxiety, or
             simply providing a moment of relaxation and rejuvenation, Stephanie

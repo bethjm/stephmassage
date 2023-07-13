@@ -32,9 +32,8 @@
 }
 
 .mini_FAQ .meet_image {
-  width: 500px;
-  height: 500px;
-  /* background-color: var(--overlay); */
+  width: 15rem;
+  height: 15rem;
   border-radius: 2rem;
   content: " ";
   margin: 0 auto;
@@ -47,5 +46,24 @@
   .mini_FAQ .mini_FAQ_accordion {
     width: 100%;
     padding-top: 10%;
+  }
+
+  .mini_FAQ .mini_FAQ_container {
+    width: 60%;
+  }
+
+  .mini_FAQ .text_content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mini_FAQ .meet_image {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .mini_FAQ .text-content h1 {
+    padding-top: 5%;
   }
 }
