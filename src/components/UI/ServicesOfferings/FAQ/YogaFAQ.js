@@ -2,8 +2,6 @@ import React from "react";
 import FAQAPI from "../../../APIS/FAQAPI";
 import Accordion from "../../Accordion/Accordion";
 
-import FAQServiceColumn from "./FAQServiceColumn";
-
 import "./MiniFAQ.css";
 
 function YogaFAQ() {

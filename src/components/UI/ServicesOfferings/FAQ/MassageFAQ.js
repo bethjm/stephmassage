@@ -2,8 +2,6 @@ import React from "react";
 import FAQAPI from "../../../APIS/FAQAPI";
 import Accordion from "../../Accordion/Accordion";
 
-import FAQServiceColumn from "./FAQServiceColumn";
-
 import "./MiniFAQ.css";
 
 function MassageFAQ() {
@@ -34,10 +32,9 @@ function MassageFAQ() {
 
   return (
     <div className="mini_FAQ">
+      <div className="title"></div>
       <div className="mini_FAQ_container">
-        <div className="mini_FAQ_column">
-          <div className="meet_image"></div>
-        </div>
+        <div className="meet_image"></div>
         <div className="mini_FAQ_accordion">
           <Accordion accordionWidth="100%">
             {mappedElements.map(({ question, answer }) => (
