@@ -14,7 +14,7 @@ function AreYou({ title, Li1, Li2, Li3, Li4, Li5, service }) {
           <li>{Li4}</li>
           <li>{Li5}</li>
         </ul>
-        <h3>Then a {service} with Steph is right for you!</h3>
+        <h3>Then a {service} with Steph is for you!</h3>
       </div>
     </div>
   );
