@@ -1,7 +1,5 @@
 import React from "react";
 
-import FAQServiceColumn from "../FAQ/FAQServiceColumn";
-
 import "./About.css";
 
 function AboutMassage() {
@@ -9,7 +7,7 @@ function AboutMassage() {
     <div className="about-massage">
       <div className="about-massage-container">
         <div className="photo-content">
-          <FAQServiceColumn />
+          <div className="meet_image"></div>
         </div>
         <div className="text-content">
           <h1>The journey of Bodywork by Stephanie...</h1>

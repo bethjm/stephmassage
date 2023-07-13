@@ -1,14 +1,16 @@
+@import url("https://fonts.cdnfonts.com/css/montserrat");
+
 .landing_header_page {
   background-color: var(--overlay);
   color: #fff;
-  height: 60vh;
+  height: 75vh;
   width: 100%;
   position: relative;
 }
 
 .landing_header_page:before {
   content: "";
-  background: url(../images/massage_header.png) no-repeat center center/cover;
+  background: url(../images/massage2.jpg) no-repeat center center/cover;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -29,6 +31,48 @@
 
 .landing_header_page .landing_header_container h1 {
   text-align: center;
-  font-size: 4.5rem;
+  font-size: 6rem;
   font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  width: 100%;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid var(--dark-blue); /* The typwriter cursor */
+  white-space: nowrap; /* Allows line breaks in the text */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+    white-space: nowrap; /* Start with no line breaks */
+  }
+  to {
+    width: 100%;
+    white-space: pre-line; /* Allow line breaks as the width increases */
+  }
+}
+
+@media (max-width: 1200px) {
+  .landing_header_page .landing_header_container h1 {
+    /* Existing styles */
+    overflow: initial;
+    border-right: none;
+    white-space: pre-line;
+    margin: 0;
+    letter-spacing: 0;
+    animation: none;
+    font-size: 5rem;
+  }
 }

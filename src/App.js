@@ -39,7 +39,7 @@ function App() {
           <ul className={click ? "nav_menu active" : "nav_menu"}>
             <div className="dropdown">
               <li className="nav_item" onClick={handleClick}>
-                <p>Services</p>
+                <p id="services">Services</p>
                 <div className="dropdown_content">
                   <ul>
                     <li onClick={handleClick}>

@@ -1,4 +1,6 @@
+@import url("https://fonts.cdnfonts.com/css/montserrat");
 @import url("https://fonts.cdnfonts.com/css/playfair-display");
+@import url("https://fonts.cdnfonts.com/css/lato");
 
 :root {
   --blue: #6fbfbe;
@@ -18,7 +20,7 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, "Playfair Display", sans-serif;
+  font-family: -apple-system, "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.2rem;

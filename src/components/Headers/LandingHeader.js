@@ -6,7 +6,7 @@ function LandingHeader() {
   return (
     <div className="landing_header_page">
       <div className="landing_header_container">
-        <h1>Unwind, heal, and feel at peace</h1>
+        <h1>Unwind & find peace</h1>
       </div>
     </div>
   );

@@ -36,7 +36,7 @@ function YogaFAQ() {
     <div className="mini_FAQ">
       <div className="mini_FAQ_container">
         <div className="mini_FAQ_column">
-          <FAQServiceColumn />
+          <div className="meet_image"></div>
         </div>
         <div className="mini_FAQ_accordion">
           <Accordion accordionWidth="100%">

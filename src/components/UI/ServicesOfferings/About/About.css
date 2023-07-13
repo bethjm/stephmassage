@@ -2,13 +2,26 @@
   background-color: var(--dark-blue);
 }
 
+.about-massage .meet_image {
+  width: 20rem;
+  height: 20rem;
+  background-color: var(--pink);
+  border-radius: 2rem;
+  content: " ";
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .about-massage .about-massage-container {
   display: flex;
   flex-direction: row;
-  margin: auto;
   width: 80%;
   padding-top: 5%;
   padding-bottom: 5%;
+  flex-wrap: wrap;
+  margin: auto;
 }
 
 .about-massage .text-content {

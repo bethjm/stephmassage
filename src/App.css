@@ -27,6 +27,15 @@
 
 .header .nav_bar .logo .logo_name p {
   color: #0d0d0d;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header a {
+  font-family: "Montserrat", sans-serif;
+}
+
+#services {
+  font-family: "Montserrat", sans-serif;
 }
 
 .header .nav_bar .logo img {
