@@ -10,7 +10,8 @@ import AboutMassage from "../UI/ServicesOfferings/About/AboutMassage";
 
 const MassageService = {
   title: "What is massage therapy?",
-  content: `Massage is a time-honored practice that offers numerous benefits for relaxation, healing, and overall well-being. With skilled manipulation of soft tissues, massage therapists like Steph can help reduce stress, relieve muscle tension, and improve circulation. Whether it's a gentle Swedish massage or a deeper tissue technique, Steph's personalized approach ensures a tailored experience. Regular massage sessions promote self-care, managing stress, and nurturing a healthier connection with your body. Steph's passion and expertise as a massage therapist guarantee a rejuvenating experience that leaves you feeling restored and revitalized.`,
+  p1: `Massage is a time-honored practice that offers numerous benefits for relaxation, healing, and overall well-being. With skilled manipulation of soft tissues, massage therapists like Steph can help reduce stress, relieve muscle tension, and improve circulation.`,
+  p2: `Steph's personalized approach ensures a tailored experience. Regular massage sessions promote self-care, managing stress, and nurturing a healthier connection with your body. Steph's passion and expertise as a massage therapist guarantee a rejuvenating experience that leaves you feeling restored and revitalized.`,
 };
 
 const MassageAreYou = {
@@ -33,7 +34,8 @@ function Massage() {
         <MassageHeader />
         <IntroServices
           title={MassageService.title}
-          content={MassageService.content}
+          p1={MassageService.p1}
+          p2={MassageService.p2}
           link={serviceLink} // Pass the link as a prop
         />
         <AreYou

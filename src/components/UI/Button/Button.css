@@ -1,15 +1,15 @@
 .button {
-  padding: 17px 28px;
-  font-size: 1rem;
+  padding: 15px 25px;
+  font-size: 1.2rem;
   color: #fff;
   text-transform: uppercase;
-  background-color: var(--pink);
-  border: 1px solid var(--pink);
+  background-color: var(--button-color, var(--pink));
+  border: 1px solid var(--button-color, var(--pink));
   border-radius: 4px;
   cursor: pointer;
 }
 
 .button:hover {
-  background: var(--dark-blue);
-  border: 1px solid var(--dark-blue);
+  background: var(--button-hover-color, var(--dark-blue));
+  border: 1px solid var(--button-hover-color, var(--dark-blue));
 }

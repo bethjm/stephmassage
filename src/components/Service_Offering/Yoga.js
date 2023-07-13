@@ -9,7 +9,8 @@ import AboutMassage from "../UI/ServicesOfferings/About/AboutMassage";
 
 const YogaService = {
   title: "What is Yoga?",
-  content: `Yoga is a transformative practice that encompasses the mind, body, and spirit. With its origins rooted in ancient wisdom, yoga offers a holistic approach to well-being, fostering physical strength, mental clarity, and emotional balance. Stephanie embraces the essence of yoga, guiding her students on a journey of self-discovery and self-care. Through a combination of physical postures, breathwork, and mindfulness, Stephanie's yoga classes create a sacred space where students can cultivate inner peace, enhance their flexibility, and build strength.`,
+  p1: `Yoga is a transformative practice that encompasses the mind, body, and spirit. With its origins rooted in ancient wisdom, yoga offers a holistic approach to well-being, fostering physical strength, mental clarity, and emotional balance.`,
+  p2: `Stephanie embraces the essence of yoga, guiding her students on a journey of self-discovery and self-care. Through a combination of physical postures, breathwork, and mindfulness, Stephanie's yoga classes create a sacred space where students can cultivate inner peace, enhance their flexibility, and build strength.`,
 };
 
 const YogaAreYou = {
@@ -32,7 +33,8 @@ function Yoga() {
         <YogaHeader />
         <IntroServices
           title={YogaService.title}
-          content={YogaService.content}
+          p1={YogaService.p1}
+          p2={YogaService.p2}
           link={serviceLink} // Pass the link as a prop
         />
         <AreYou

@@ -9,7 +9,8 @@ import AboutMassage from "../UI/ServicesOfferings/About/AboutMassage";
 
 const ReikiService = {
   title: "What is Reiki?",
-  content: `Reiki is  a powerful healing technique originating in Japan. Stephanie channels healing energy through her hands, allowing it to flow freely to her clients. Through the gentle touch and compassionate presence, Reiki with Stephanie creates a safe and nurturing space for clients to release tension, reduce stress, and support their overall well-being. Whether combined with massage therapy or offered as a standalone service, Stephanie's Reiki sessions offer a transformative and deeply rejuvenating experience.`,
+  p1: `Reiki is  a powerful healing technique originating in Japan. Stephanie channels healing energy through her hands, allowing it to flow freely to her clients. Through the gentle touch and compassionate presence, Reiki with Stephanie creates a safe and nurturing space for clients to release tension, reduce stress, and support their overall well-being.`,
+  p2: `Whether combined with massage therapy or offered as a standalone service, Stephanie's Reiki sessions offer a transformative and deeply rejuvenating experience.`,
 };
 
 const ReikiAreYou = {
@@ -31,7 +32,8 @@ function Reiki() {
         <ReikiHeader />
         <IntroServices
           title={ReikiService.title}
-          content={ReikiService.content}
+          p1={ReikiService.p1}
+          p2={ReikiService.p2}
           link={serviceLink} // Pass the link as a prop
         />
         <AreYou
